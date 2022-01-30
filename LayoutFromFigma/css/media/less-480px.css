@@ -1,0 +1,83 @@
+@media screen and (max-width:480px) {
+aside{
+    width:479px;
+
+}
+
+.center{
+    width:479px;
+}
+
+aside.column{
+    flex-direction: column-reverse;
+    height: 238px;
+    justify-content: space-around;
+}
+
+.main{
+    width:478px;
+    margin-top:10px;
+}
+.banner-header{
+    width:479px;
+    justify-content: flex-start;
+    background-color: rgba(248,248,253,0.6);
+}
+
+.banner-description{
+    padding: 14px 44px 14px 0;
+}
+
+.tabs{
+    display: none;
+}
+
+.subscribe-box{
+    width:479px;
+    height:128px;
+}
+
+.input{
+    width:312px;
+}
+
+.subscribe-text{
+    width:366px;
+}
+
+.card-content{
+    flex-direction: column;
+    align-items: center;
+    width:375px;
+    margin: 0 auto;
+}
+
+.card-large{
+    width:375px;
+    margin: 0;
+    height:365px;
+}
+
+.img-large{
+    width:355px;
+    height:180px;
+}
+
+.header{
+    width:375px;
+    font-size:22px;
+}
+.body{
+width:375px;
+font-size:18px;
+}
+.date, .read-more{
+    font-size:16px;
+}
+
+
+footer{
+    width:429px;
+    margin-top:0;
+}
+}

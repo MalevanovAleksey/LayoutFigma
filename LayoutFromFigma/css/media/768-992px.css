@@ -1,0 +1,53 @@
+@media screen and (max-width:992px) {
+
+    .center{
+        width:710px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+   
+   
+   aside{
+       width:710px;
+   }
+
+   aside.column, .aside-menu{
+       display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 160px;
+    align-items: center;
+    margin: 0;
+   }
+   .aside-menu{
+       width:500px;
+       height:66px;
+       
+   }
+
+    .aside-tweet, .aside-friends, .aside-button{
+        display: none;
+    }
+
+    .aside-menu .row{
+        flex-direction: column;
+    }
+    
+    .text-menu{
+        margin-top:12px;
+        margin-left:0;
+        text-align: center;
+    }
+ 
+
+    .main{
+        margin-top:31px;
+    }
+
+    footer{
+        margin-top:75px;
+        height:82px;
+        width:716px;
+    }
+}

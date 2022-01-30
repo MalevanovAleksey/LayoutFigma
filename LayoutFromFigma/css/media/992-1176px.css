@@ -1,0 +1,39 @@
+@media screen and (max-width:1176px) {
+    .center{
+        width:904px;
+    }
+    .main, .subscribe-box, .card-content{
+        width:712px;
+    }
+    .Tastemakers-bottom, .Blog-bottom, .List-bottom, .Contribute-bottom{
+        display: none;
+    }
+
+    .tab-item-large{
+        height:35px;
+        align-items: center;
+    }
+
+    .tab-item-text{
+        margin:0;
+    }
+
+    .top-text{
+        font-size:14px;
+    }
+
+    .default-button-text{
+        padding:6px 17px 7px 18px
+    }
+
+    .card-large, .header, .body{
+        width: 158px;
+    }
+    .img-large{
+        width:139px;
+    }
+
+    footer{
+        width:904px;
+    }
+}   

@@ -1,0 +1,451 @@
+.root{
+    position: relative;
+
+}
+.center{
+    margin: 50px auto;
+    width:1088px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.space-between{
+    justify-content: space-between;
+}
+aside{
+
+    align-items: center;
+     /* padding:46px 44px 0 143px; */
+    width:140px;
+    height:644px;
+    margin-right: 44px;
+    
+}
+.icon-logo{
+    width:120px;
+    height:120px;
+    border-radius: 100px;
+    background-color:black;
+    background-image: url(../images/foodSense.svg);
+    background-position: center;
+  background-size: 89.9px;
+  background-repeat: no-repeat;
+    
+}
+
+.aside-menu{
+    width: 140px;
+    height:330px;
+    font-family:arial;
+}
+
+.aside-menu-item{
+    height:66px;
+    align-items: center;
+}
+.text-menu{
+    font-style: italic;
+    font-size: 14px;
+    line-height: 14px;
+    color: #34ACA7;
+    width: 92px;
+    height:14px;
+    margin-left:15px;
+    /* padding: 13px 3px 39px 0; */
+}
+
+
+
+.menu-icon{
+    /* width:30px; */
+    height:30px;
+    /* padding:5px 12px 31px 3px; */
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+
+.img-food{
+    width:22.74px;
+}
+.blog-icon{
+    width: 21.72px;
+}
+.list-icon{
+width:22.56px
+}
+.camera-icon{
+width:30px;
+height:23.61px
+}
+.about-icon{
+width: 24.02;
+}
+
+
+
+.aside-header{
+    width:140px;
+    height:21px;
+    font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+border-bottom: 1px dashed #E5E5E5;
+text-transform: uppercase;
+color: black;
+display:flex;
+align-items:center;
+}
+
+.aside-button{
+    border:1px solid #E5E5E5;
+    border-radius:5px;
+    display:flex;
+    flex-direction: row;
+  margin-top:9px;
+    height:28px;
+    justify-content:center;
+    align-items:center;
+}
+
+.aside-text{
+   
+    font-family: Arial;
+font-style: italic;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+    color:#34ACA7;
+    width:98px;
+    height:10px;
+    margin-left:6px ;
+}
+
+.aside-img{
+    height:13px;
+    width:16px;
+    
+}
+
+
+.aside-text-block{
+    font-family: Arial;
+font-style: italic;
+font-weight: normal;
+font-size: 10px;
+line-height: 19px;
+width:140px;
+height:56px;
+margin-top: 10px;
+}
+
+.aside-friends .aside-button{
+    margin-top: 15px;
+}
+
+
+
+.main{
+    width: 896px;
+    font-family: Arial;
+    font-weight: normal;
+    /* margin: 46px 0 6px 0; */
+   
+    /* height:996px; */
+}
+
+.banner{
+    height: 445px;
+    background-image: url(../images/micro.jpg);
+    
+}
+
+.banner-header{
+    position: relative;
+    width:272px;
+    background: #fff;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 22px;
+    padding-top: 2px;
+    height:47px;
+   
+    justify-content:center;
+    align-items:center;
+    top:285px;
+}
+
+.banner-description{
+    position: relative;
+    top: 285px;
+    width:434px;
+    background: #000000;
+    font-style: italic;
+    font-size: 14px;
+     height:14px;
+    color: #fff;
+    padding: 14px 29px 14px 24px;
+
+    
+}
+.tabs{
+    
+    color: #34ACA7;
+}
+
+.tab-item-large{
+    /* width:224px; */
+    background: #EFF8F7;
+     height:85px; 
+    border-left:1px  solid#F9FBFB;
+    border-right:1px  solid#F9FBFB;
+    width:222px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.tab-item-large:active{
+    background: #D9EFEC;
+}
+
+.tab-item-large:hover{
+    background: #D9EFEC;
+}
+.tab-item-text{
+    margin-left: 22px;
+}
+
+
+.top-text{
+   
+    font-style: normal;
+    font-size: 18px;
+    line-height: 18px;
+    
+}
+
+.bottom-text{
+    font-style: italic;
+    font-size: 10px;
+    line-height: 19px;
+    
+}
+
+.Tastemakers{
+    width:103px;
+    height:18px;
+    /* padding:26px 101px 0 20px; */
+}
+
+.Tastemakers-bottom{
+    width:141px;
+    height:19px;
+    /* padding:0 63px 22px 20px; */
+}
+
+.Blog{
+    width:37px;
+    height:18px;
+    /* padding:26px 167px 0 20px; */
+}
+
+.Blog-bottom{
+    width:149px;
+    height:19px;
+    /* padding:0 55px 22px 20px; */
+}
+
+.List{
+    width:82px;
+    height:18px;
+    /* padding:26px 122px 0 20px */
+}
+
+.List-bottom{
+    width:137px;
+    height: 19px;
+    /* padding: 0 67px 22px 20px; */
+}
+
+.Contribute{
+    width:84px;
+    height:18px;
+    /* padding:26px 120px 0 20px; */
+}
+.Contribute-bottom{
+    width:118px;
+    height:19px;
+    /* padding:0 86px 22px 20px; */
+}
+
+
+   .subscribe-box{
+       border-bottom: 1px dashed #E5E5E5;
+       border-top: 1px dashed #E5E5E5;
+       width: 896px;
+       height:51px;
+       margin-top:30px;
+       margin-bottom: 29px;
+       display:flex;
+       flex-direction: row;
+       align-items: center;
+   }
+
+.mail-icon{
+    width:32px;
+    height:26px;
+    margin:11px 0 14px 18px;
+}
+.subscribe-text{  
+font-style: italic;
+font-size: 14px;
+line-height: 16px;
+margin:8px 0 10px 16px;
+}
+
+.input {
+    width: 148px;
+    height:10px;
+    padding:0px;
+    border-width: 0px;
+    padding:6px;
+    border:1px solid #E5E5E5; 
+    font-size: 10px;
+line-height: 10px;
+margin:14px 0 15px 24px;
+
+}
+
+.default-button{
+    font-style: normal;
+    font-size: 10px;
+line-height: 10px;
+width:80px;
+height:23px;
+display:flex;
+align-items: center;
+justify-content: center;
+border:1px solid #E5E5E5;
+border-radius: 2px;
+padding:0;
+margin:13px 18px 15px 18px;
+background: linear-gradient(180deg, #F4F3F3 0%, #BBB9B9 100%);
+}
+
+.default-button-text{
+    width:45px;
+    height:10px;
+}
+
+.card-content{
+width:896px;
+flex-wrap: wrap;
+/* height:356px; */
+/* background:#ccc; */
+}
+
+.img-large{
+    border: 1px solid #E5E5E5;
+    width:187px;
+    height:123px;
+    padding:9px;
+}
+.card-large{
+width:207px;
+margin-left:17px;
+}
+
+.header{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #34ACA7;
+width:207px;
+margin-bottom: 9px;
+margin-top: 11px;
+}
+
+.body{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+width:207px;
+margin-bottom: 11px
+}
+
+.date{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: #E5E5E5;
+}
+
+.read-more{
+    color:#34ACA7 ;
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+}
+
+
+
+footer{
+    width:1088px;
+    height:92px;
+    justify-content:space-between;
+    align-items:center;
+    font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+margin: 0 auto;
+position:relative;
+bottom:0;
+border-top:2px solid #E5E5E5;
+}
+
+footer a{
+    text-decoration:none;
+}
+
+.company{
+color: #E5E5E5;
+}
+
+.privacy a{
+    color:#34ACA7;
+    
+}
+
+.privacy a:first-child{
+    border-right: 1px solid #E5E5E5;
+    margin-right:3px;
+}
+.privacy a:nth-child(2){
+    border-right: 1px solid #E5E5E5;
+    margin-right:3px;
+}
+
+/* .footer-icon img:nth-child(1){
+    margin-right:12.25px;
+}
+.footer-icon img:nth-child(3){
+    margin-left:11.75px;
+} */
+
+.footer-icon{
+    display: flex;
+    width:104px;
+}

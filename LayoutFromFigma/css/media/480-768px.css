@@ -1,0 +1,67 @@
+@media screen and (max-width:768px) {
+    .center{
+        width:561px;
+        
+    }   
+   aside{
+       width:561px;
+   }
+
+   .img-food, .blog-icon, .list-icon, .camera-icon, .about-icon{
+       display: none;
+   }
+   
+   .text-menu{
+       margin: 0;
+       width: 100%;
+   }
+
+   .aside-menu{
+       width:441px;
+       height: 20px;
+       justify-content: space-around;
+   }
+
+   .aside-menu-item{
+       height:100%;
+   }
+   
+   .main{
+       width:545px;
+        margin: 0 auto;
+   }
+
+   .subscribe-text{
+       width:474px;
+   }
+   .subscribe-box{
+       flex-wrap: wrap;
+       height:96px;
+       width:545px;
+   }
+
+   .input{
+       width:394px;
+       margin: 14px 0 15px 18px; 
+   }
+
+   .card-content{
+       width:544px;
+       margin-right: 34px;;
+   }
+
+   .card-large, .header, .body
+   {
+       width:226px;
+   } 
+   .img-large{
+       width:210px;
+   }
+   .card-large{
+    margin-left: 34px;
+   }
+
+   footer{
+       width:545px;
+   }
+}
